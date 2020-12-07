@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<departments>
+  <department>
+    <name>Accounting</name>
+  </department>
+  <department>
+    <name>Biology</name>
+  </department>
+  <department>
+    <name>Business</name>
+  </department>
+  <department>
+    <name>History</name>
+  </department>
+  <department>
+    <name>IT</name>
+  </department>
+  <department>
+    <name>Marketing</name>
+  </department>
+  <department>
+    <name>Paralegal</name>
+  </department>
+  <department>
+    <name>Physics</name>
+  </department>
+  <department>
+    <name>Studying</name>
+  </department>
+  <department>
+    <name>Time Travel</name>
+  </department>
+</departments>

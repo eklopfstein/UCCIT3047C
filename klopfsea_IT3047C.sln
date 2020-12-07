@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "klopfsea_IT3047C", "klopfsea_IT3047C\", "{C5BF27BF-4E3A-4274-BC35-A430465FB005}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50565"
+		Debug.AspNetCompiler.PhysicalPath = "klopfsea_IT3047C\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50565\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50565"
+		Release.AspNetCompiler.PhysicalPath = "klopfsea_IT3047C\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50565\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50565"
+		SlnRelativePath = "klopfsea_IT3047C\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5BF27BF-4E3A-4274-BC35-A430465FB005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BF27BF-4E3A-4274-BC35-A430465FB005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB3150E7-CC93-4FAF-BF3E-979FDC953B2D}
+	EndGlobalSection
+EndGlobal

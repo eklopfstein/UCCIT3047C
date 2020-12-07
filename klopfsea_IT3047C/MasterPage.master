@@ -1,0 +1,65 @@
+﻿<%------------------------------------------------------------------------------
+ - Elijah Klopfstein                                                           -
+ - klopfsea@mail.uc.edu                                                        -
+ - Assigment 01                                                                -
+ - Due: January 22nd 2020                                                      -
+ - IT3047C Spring 2020                                                         -
+ - HTML for the master page for all pages                                      -
+ - Used to make nav bar, header, and footer                                    -
+-------------------------------------------------------------------------------%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+<link href="Css/style.css" rel="stylesheet" />
+
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Klopfsea IT3047C</h1>
+        </header>
+        <form id="form1" runat="server">
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="Default.aspx">Home</a>
+                        </li>
+                        <li>
+                            <!-- DropDownList in the nav bar for the assignments -->
+                            <a>
+                                <asp:DropDownList ID="ddlAssignment" runat="server" BorderStyle="None" BackColor="#000000" ForeColor="#DF2500" AutoPostBack="True" Font-Bold="True" Font-Size=".85em" OnSelectedIndexChanged="ddlAssignment_SelectedIndexChanged">
+                                    <asp:ListItem Text="Assignments" Value="0" Selected="True"></asp:ListItem>
+                                    <asp:ListItem Text="Assignment 01" Value="Assignment01.aspx"></asp:ListItem>
+                                    <asp:ListItem Text="Assignment 02" Value="Assignment02.aspx"></asp:ListItem>
+                                    <asp:ListItem Text="Assignment 03" Value="Assignment03.aspx"></asp:ListItem>
+                                    <asp:ListItem Text="Assignment 04" Value="Assignment04.aspx"></asp:ListItem>
+                                    <asp:ListItem Text="Midterm" Value="Midterm.aspx"></asp:ListItem>
+                                    <asp:ListItem Text="Assignment 06" Value="Assignment06.aspx"></asp:ListItem>
+                                    <asp:ListItem Text="Assignment 07" Value="Assignment07.aspx"></asp:ListItem>
+                                    <asp:ListItem Text="Assignment 08" Value="Assignment08.aspx"></asp:ListItem>
+                                    <asp:ListItem Text="Assignment 09" Value="Assignment09.aspx"></asp:ListItem>
+                                    <asp:ListItem Text="Assignment 10" Value="Assignment10.aspx"></asp:ListItem>
+                                    <asp:ListItem Text="Final" Value="Final.aspx"></asp:ListItem>
+                                </asp:DropDownList></a>
+                        </li>
+                    </ul>
+                </nav>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+        <footer>
+            <p>Copyright &copy; 2020 Elijah Klopfstein</p>
+        </footer>
+    </div>
+</body>
+</html>
